@@ -41,4 +41,12 @@ except AttributeError:
 with r_ctx.thread_ctx("at"):
     a.foo()
 
+#STDOUT:
+#def
+#at
+#ap
+#app/tpp
+#passed
+#at
+
 
